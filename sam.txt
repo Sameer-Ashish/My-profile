@@ -1,1 +1,3 @@
-sameer ashish this is git demo
+git remote add origin https://github.com/Sameer-Ashish/samfolder.git
+git branch -M main
+git push -u origin main
