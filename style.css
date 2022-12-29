@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+HTML{
+    scroll-behavior: smooth;
+}
+
+
+/* Default settings */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+body{
+    overflow-x: hidden;
+}
+/* Default settings */
+
+
+
+/* NAVBAR SECTION STARTS HERE  */
+header{
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 8px 5%;
+    background-color:#00203FFF;
+    column-gap: 5px;
+    position: sticky;
+    top: 0;
+}
+
+.logo{
+    cursor: pointer;
+    color: #ADEFD1FF;
+    margin-right: auto;
+}
+
+.navbar{
+    list-style-type: none;
+}
+
+.navbar li{
+    display: inline-flex;
+    padding: 0px 20px;
+}
+
+.navbar li a{
+    color: #ADEFD1FF;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: all 0.5s ease 0s;
+    margin: 5px;
+    border: 3px solid #00203FFF;
+}
+
+button{
+    font-size: 15px;
+    padding: 7px 25px;
+    background-color: #ADEFD1FF;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+.navbar li a:hover{
+    color: #00203FFF;
+    border-radius: 50px;
+    background-color: #ADEFD1FF;
+    border: 3px solid #ADEFD1FF;
+}
+
+button:hover{
+    background-color: #00203FFF;
+    color: #ADEFD1FF;
+}
+/* NAVBAR SECTION ENDS HERE  */
+
+
+/* HOME SECTION STARTS HERE   */
+.Home{
+    min-height: 92vh;
+    background-color:#ADEFD1FF;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #00203FFF;
+}
+
+.soc{
+    margin-left: 5%;
+}
+
+.soc ul{
+    display: flex;
+}
+
+.soc ul li{
+    list-style: none;
+    margin-right:25px;
+    margin-top: 1rem;
+    margin-bottom: 30px;
+}
+
+.soc span{
+    display: block;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: 2%;
+}
+
+#dis{
+    font-size: 1.5rem;
+
+}
+
+.soc ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.Home img{
+    width: 320px;
+    margin-right: 5%;
+    margin-top: 25px;
+}
+/* HOME SECTION ENDS HERE */
+
+
+/* fontawson icon settings */
+
+i {
+    background-color: #00203FFF;
+    border: 12px solid #00203FFF;
+    border-radius: 50px;
+    font-size: 30px;
+    color: white;
+}
+
+/* ABOUT ME SECTION STARTS HERE   */
+#Ab{
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 20px;
+    text-align: center;
+    background-color: #feffdf;
+    padding-bottom: 50px;
+}
+.fa-user{
+    color: rgb(0, 0, 0);
+    border: 5px solid #feffdf;
+    background-color: #feffdf;
+}
+
+.About-me{
+    min-height: 85vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: #feffdf;
+}
+
+.About-me img{
+    width: 20rem;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    border-radius: 50px;
+    border: 3px solid black;
+    margin-left: 5%;
+}
+
+.float{
+    width: 50vw;
+    padding-top: 30px;
+}
+
+#one{
+    font-size: 2rem;
+    font-weight: 900;
+    padding-bottom: 5px;
+}
+
+#two{
+    font-size: 1.3rem;
+    font-weight: 900;
+    padding-bottom: 5px;
+}
+
+#three{
+    padding-top: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-bottom: 20px;
+    text-align: justify;
+    margin-right: 3%;
+}
+
+#four p{
+    color: rgb(11, 11, 11);
+    font-size: 1rem;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+#four span{
+    color: rgb(3, 7, 255);
+}
+
+.float a button{
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: #00203FFF;
+    color: #feffdf;
+    margin-bottom: 30px;
+}
+
+.float a button:hover{
+    background-color: #ADEFD1FF;
+    color: #00203FFF;
+}
+
+/* ABOUT ME SECTION ENDS HERE   */
+
+
+
+
+
+/* SKILLS SECTION STARTS HERE */
+
+ #Skills{
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 20px;
+    text-align: center;
+    background-color: #dff8ff;
+    padding-bottom: 30px;
+}
+
+.fa-code{
+    color: rgb(0, 0, 0);
+    border: 5px solid #dff8ff;
+    background-color: #dff8ff;
+}
+
+.Skills-c{
+    min-height: 500PX;
+    background-color: #dff8ff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.l h1{
+    font-size: 2rem;
+    padding-top:30px;
+    color:red;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.l li{
+    list-style: none;
+}
+
+.l li{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 0px;
+    font-weight: 900;
+}
+
+
+
+/* SKILLS SECTION ENDS HERE */
+
+
+
+
+/* EDUCATION SECTION STARTS HERE */
+
+#Education{
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 20px;
+    text-align: center;
+    background-color: #e1ffdf;
+    padding-bottom: 30px;
+}
+
+.fa-school{
+    color: black;
+    background-color: #e1ffdf;
+    border: 5px solid #e1ffdf;
+}
+
+.Education-c{
+    min-height: 100%;
+    padding-bottom: 5%;
+    background-color: #e1ffdf;
+}
+
+.edu-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.edu-1 img{
+    float: left;
+    width: 19rem;
+    height: 250px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+}
+
+.edu-dat{
+    width: 60%;
+    display: flex;
+    margin-left:20px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 40px;
+}
+
+.edu-dat :nth-child(1){
+    font-size: 1.7rem;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+
+.edu-dat :nth-child(2){
+    font-size: 1.2rem;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+
+.edu-dat :nth-child(3){
+    font-size: 1.2rem;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+
+.edu-dat :nth-child(4){
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+/* EDUCATION SECTION ENDS HERE */
+
+
+
+
+/* CONTACT SECTION STARTS HERE */
+ #Contact{
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 10px 0px;
+    text-align: center;
+    background-color:#00203FFF;
+    color: #dff8ff;
+}
+
+.fa-address-card{
+     color: rgb(255, 255, 255);
+     border: 5px solid #00203FFF;
+     background-color: #00203FFF;
+
+}
+.Contact-c{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 30px;
+    background-color:#00203FFF;
+    color: #dff8ff;
+    padding: 20px;
+}
+
+.f{
+    justify-content: space-evenly;
+}
+
+.s{
+    justify-content: space-evenly;
+}
+
+.f h3{
+    font-size: 2rem;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+.s h3{
+    font-size: 2rem;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+.f p{
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    padding-top: 5px;
+    
+}
+
+.s p{
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    padding-top: 5px;
+
+}
+
+.link-small{
+    list-style: none;
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+
+.link-small a{
+    color: #dff8ff;
+    text-decoration: none;
+}
+/* CONTACT SECTION ENDS HERE */
+
+
+
+/* LAST LINE STARTS HERE */
+#last-designed{
+    background-color:#00203FFF;
+    color: #dff8ff;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;
+    padding: 10px;
+    letter-spacing: 5px;
+    word-spacing: 15px;
+}
+
+/* LAST LINE ENDS HERE */
